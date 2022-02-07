@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Login from './component/Login/Login.js';
-import Registration from './component/Registration/Registration.js';
+import * as React from "react";
+import { BrowserRouter } from "react-router-dom";
+import PageRouter from "./router/PageRouter";
 
 function App() {
   return (
     <div className="App">
-<Login/>
-<Registration/>
+        <BrowserRouter>
+            <PageRouter />
+        </BrowserRouter>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form,Row,Col, Container, Button } from 'react-bootstrap';
-function Registration (){
+function Regiester (){
     return(
 
 <Container className='pt-5'>
@@ -47,4 +47,4 @@ function Registration (){
     );
 }
 
-export default Registration;
+export default Regiester;
